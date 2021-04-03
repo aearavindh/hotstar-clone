@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "hotstar-clone",
+    "slug": "hotstar-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hotstar-logo.png",
+    "splash": {
+      "image": "./assets/hotstar-splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hotstar-logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
